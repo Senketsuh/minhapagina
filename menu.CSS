@@ -1,0 +1,72 @@
+<style type="text/css">
+
+  a {
+    color: white;
+    font-family: OCR A Std, monospace;
+    text-decoration: none;
+  }
+
+  div {
+  }
+     div ul li {
+       display: inline;
+}
+ div ul li a {
+
+    text-align: center;
+    padding: 10px 60px 10px 60px;
+    border: 2px solid #460000;
+    background-color: black;
+    color: white;
+    font-family: OCR A Std, monospace;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(255, 0, 0, .8);
+
+
+  }
+  div ul li a:hover {
+
+    border: 2px solid #460000;
+    background: url("https://thumbs.gfycat.com/NeglectedLividDiamondbackrattlesnake-size_restricted.gif");
+    background-size: cover;
+   }
+
+
+
+   .maisclick{
+     padding: 10px 100px 10px 100px;
+     border: 2px solid #460000;
+     background-color: black;
+     color: white;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     text-shadow: 0 0 10px rgba(255, 0, 0, .8);
+   }
+
+   .mais:hover .mais-links {
+     padding: 10px 60px 10px 60px;
+     border: 2px solid #460000;
+     background-color: black;
+     color: white;
+     font-family: OCR A Std, monospace;
+     text-decoration: none;
+     text-shadow: 0 0 10px rgba(255, 0, 0, .8);
+     display: table;
+
+   }
+
+   .mais-links {
+
+     display: none;
+     min-width: 160px;
+     color: white
+   }
+
+   .mais-click:hover {
+     border: 2px solid #460000;
+     background: url("https://thumbs.gfycat.com/NeglectedLividDiamondbackrattlesnake-size_restricted.gif");
+     background-size: cover;
+     display: block;
+   }
+
+</style>

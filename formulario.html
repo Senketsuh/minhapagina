@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<title>Formulário</title>
+	<style media="screen">
+		table tr td {
+			padding: 5px;
+		}
+		table input {
+		}
+	</style>
+
+	<link rel="stylesheet" type="text/css" href="menu.CSS">
+<body style="background-color:black; font-family: OCR A Std, monospace;">
+
+	<font color="white">
+<center>
+	<div>
+	  <ul>
+	<li> <a href="index.html"> Voltar </a>
+	</ul>
+	</div>
+	<br><br>
+
+	<form class="formulario" action="index.html" method="post">
+		<table>
+			<tr>
+				<td>Nome: </td>
+				<tr><td><input type="text" size="50" name="nome" value=""> </td></tr>
+				<tr><td></td></tr>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<tr><td><input type="email" size="50" name="email" value=""></td></tr>
+				<tr><td></td></tr>
+			</tr>
+			<tr>
+				<td>Sexo:</td>
+				<tr><td><input type="radio" name="sexo" value="Masculino"> Masculino <input type="radio" name="sexo" value="Feminino"> Feminino</td></tr>
+				<tr><td></td></tr>
+			</tr>
+			<tr>
+				<td>Gosto músical:</td>
+				<tr><td><input type="checkbox" name="music" value="">Rock <input type="checkbox" name="music" value=""> Samba <input type="checkbox" name="kpop" id="kpop" onclick="myFunction()">K-pop </td></tr>
+				<tr><td></td></tr>
+			</tr>
+			<tr>
+				<td>O que achou das páginas?</td>
+				<tr><td><input type="text" size="50" name="comment" value=""></td></tr>
+				<tr><td></td></tr>
+			</tr>
+    </table>
+		<br>
+		<input type="submit" name="enviar" value="Enviar">
+
+	</form>
+
+</center>
+
+	<script>
+	function myFunction() {
+	  var checkBox = document.getElementById("kpop");
+	  if (checkBox.checked == true){
+	    alert("SAIA DAQUI AGORA!!");
+			checkBox.checked = false;
+	  }
+	}
+	</script>
+
+  </body>
+
+  </html>
